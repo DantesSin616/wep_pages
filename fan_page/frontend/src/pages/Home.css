@@ -1,0 +1,65 @@
+.home {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: #1a1a2e;
+}
+
+.tagline {
+  font-size: 1.25rem;
+  color: #666;
+}
+
+.social-links h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.links-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem;
+  background: #f8f8f8;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #1a1a2e;
+  font-weight: 500;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.social-link:hover {
+  transform: translateY(-2px);
+  background: #e8e8e8;
+}
+
+.social-link .icon {
+  font-size: 1.5rem;
+}
+
+.no-links {
+  text-align: center;
+  color: #888;
+}
+
+.loading {
+  text-align: center;
+  padding: 3rem;
+  color: #888;
+}
