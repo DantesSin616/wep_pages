@@ -3,12 +3,14 @@
 ## Stack Recomendation
 
 ### Backend: Django (Python)
+
 - Built-in admin panel for managing stock and news
 - ORM for products and orders
 - Easy authentication & authorization
 - Extendable for future features (payments, users)
 
 ### Frontend: React + Vite
+
 - Fast development with hot reload
 - Large ecosystem and community
 - Easy to maintain and expand
@@ -18,23 +20,27 @@
 ## Pages Structure
 
 ### 1. Home (`/`)
+
 - Hero section with branding
 - Social media links (TikTok, Instagram, Facebook, WhatsApp group)
 - Dynamic links section (easily add more in future)
 - Featured products preview
 
 ### 2. Shop (`/shop`)
+
 - Product grid (t-shirts, cups, accessories)
 - Product detail with stock availability
 - Simple cart functionality
 - Checkout flow (future: payment integration)
 
 ### 3. News (`/news`)
+
 - News feed for Justin Bieber updates
 - Admin can create/edit/delete posts
 - Categories: tours, releases, fan events
 
 ### 4. About (`/about`)
+
 - Who they are (fan group from Venezuela)
 - Mission statement
 - Contact information
@@ -44,16 +50,19 @@
 ## Data Models (Backend)
 
 ### Product
+
 - name, description, price, stock_quantity
 - image, category, is_available
 - created_at, updated_at
 
 ### NewsPost
+
 - title, content, image
 - published_at, is_published
 - author (admin user)
 
 ### SocialLink
+
 - platform_name, url, icon, is_active
 - order (display priority)
 
