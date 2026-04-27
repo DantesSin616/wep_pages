@@ -77,6 +77,25 @@
 
 ---
 
+## Deployment
+
+### Running the Server
+```bash
+cd fan_page
+source venv/bin/activate
+python manage.py runserver 0.0.0.0:8000
+```
+
+### Host
+- Local: `http://localhost:8000`
+- Network: `http://<your-ip>:8000`
+
+### Admin Panel
+- URL: `http://localhost:8000/admin/`
+- Create admin user: `python manage.py createsuperuser`
+
+---
+
 ## Future Considerations
 
 - User accounts & profiles
